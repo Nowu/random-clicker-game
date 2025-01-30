@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uriven Clicker Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Uriven Clicker Game</h1>
+        <p class="subtitle">we gamin</p>
+
+        <!-- Sign-Up Section -->
+        <div id="signup-section">
+            <label for="user-id">User ID</label>
+            <input type="text" id="user-id" placeholder="Enter User ID">
+            <label for="username">Username</label>
+            <input type="text" id="username" placeholder="Enter Username">
+            <button id="signup-button">Sign Up</button>
+        </div>
+
+        <!-- Game Section (Hidden until sign-up) -->
+        <div id="game-section" style="display: none;">
+            <!-- Item Image and Target Number -->
+            <div id="item-section">
+                <img id="item-image" src="https://static.wikia.nocookie.net/roblox/images/4/4a/Blackvalk.png/revision/latest?cb=20150113120944" alt="Item">
+                <div id="target-number">Target: <span id="target"></span></div>
+            </div>
+
+            <!-- Clickable Bar -->
+            <div id="bar-container">
+                <div id="bar"></div>
+                <div id="indicator"></div>
+            </div>
+
+            <!-- Stats Section -->
+            <div id="stats">
+                <div id="player-stats">
+                    <h3>Your Best Attempts</h3>
+                    <ul id="player-attempts"></ul>
+                </div>
+                <div id="other-players-stats">
+                    <h3>Other Players' Best Attempts</h3>
+                    <ul id="other-attempts"></ul>
+                </div>
+            </div>
+
+            <!-- Live Attempts Timeline -->
+            <div id="timeline">
+                <h3>Live Attempts</h3>
+                <div id="timeline-content"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

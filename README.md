@@ -14,6 +14,5 @@ Used for my Roblox revival project **Urivan** as a clicker game to see who could
 
 ## 🎮 How to Play
 1️⃣ Start the game, and your account will be created automatically.  
-2️⃣ Click as much as you can to get close to the set number.  
-3️⃣ The player closest to the target wins a prize.  
-4️⃣ Customize the target number and displayed image as needed.  
+2️⃣ Click as much as you can to get close to the set number.   
+3️⃣ Customize the target number and displayed image as needed.  
